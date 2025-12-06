@@ -15,6 +15,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.document_loaders import PlaywrightURLLoader
 
+
 # 1. 환경 설정 (.env 파일에서 키 가져오기)
 load_dotenv()
 
