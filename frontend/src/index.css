@@ -66,3 +66,30 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* App.css 맨 아래에 추가 */
+
+/* 말풍선 안의 마크다운 스타일 정리 */
+.App p {
+  margin: 0 0 10px 0; /* 문단 아래만 살짝 띄움 */
+}
+.App p:last-child {
+  margin-bottom: 0; /* 마지막 문단은 띄우지 않음 */
+}
+
+/* 리스트 스타일 */
+.App ul,
+.App ol {
+  margin: 5px 0;
+  padding-left: 20px; /* 들여쓰기 */
+}
+
+.App li {
+  margin-bottom: 5px;
+}
+
+/* 코드 블럭이나 굵은 글씨 */
+.App strong {
+  font-weight: 700;
+  color: inherit; /* 배경색에 맞춰 색상 유지 */
+}
