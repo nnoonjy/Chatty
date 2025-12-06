@@ -33,8 +33,15 @@ app.add_middleware(
 
 # --- 설정 ---
 TARGET_URLS = [
-    "https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN095",
-    "https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN096",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000002",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000003",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000421",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000004",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000005",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000006",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000007",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000008",
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000009"
 ]
 DATA_PATH = "./data"
 CHROMA_PATH = "./chroma_db"
