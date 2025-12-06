@@ -7,12 +7,13 @@ from dotenv import load_dotenv  # .env 파일 로드용
 
 # LangChain 관련
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader, DirectoryLoader
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+from langchain_community.document_loaders import PlaywrightURLLoader
 
 # 1. 환경 설정 (.env 파일에서 키 가져오기)
 load_dotenv()
@@ -169,13 +170,13 @@ TARGET_URLS = [
 DATA_PATH = "./data"
 CHROMA_PATH = "./chroma_db"
 
-
 def load_and_process_data():
     documents = []
     print("🌐 웹 데이터 수집 중...")
     try:
-        web_loader = WebBaseLoader(TARGET_URLS)
-        documents.extend(web_loader.load())
+        # urls는 위에서 정의한 TARGET_URLS 리스트
+        loader = PlaywrightURLLoader(urls=TARGET_URLS, remove_selectors=["header", "footer"])
+        documents.extend(loader.load())
     except Exception as e:
         print(f"⚠️ 웹 크롤링 스킵: {e}")
 
@@ -205,7 +206,6 @@ def load_and_process_data():
     )
     print("✅ 임베딩 완료 및 DB 저장됨!")
     return vectorstore
-
 
 # 서버 시작 로직
 if os.path.exists(CHROMA_PATH):
