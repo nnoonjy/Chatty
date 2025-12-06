@@ -86,29 +86,19 @@ TARGET_URLS = [
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000060", #성적관리기준-성적관리기준안내
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000061", #성적관리기준-성적관리기준안내
     #장학
-    "", #장학공지사항
-    "", #장학금개요안내-우리대학장학금개요
-    "", #종류별장학안내-학부장학금
-    "", #종류별장학안내-대학원장학금
-    "", #종류별장학안내-외국인장학금
-    "", #종류별장학안내-공고.공모형장학금
-    "", #종류별장학안내-학자금대출
-    "", #절차별장학안내-장학금 신청
-    "", #절차별장학안내-장학생 선말 및 제외
-    "", #절차별장학안내-장학금 지급 및 반납
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000062", #장학공지사항
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000070", #장학금개요안내-우리대학장학금개요
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000266", #종류별장학안내-학부장학금
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000267", #종류별장학안내-대학원장학금
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000268", #종류별장학안내-외국인장학금
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000269", #종류별장학안내-공고.공모형장학금
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000270", #종류별장학안내-학자금대출
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000271", #절차별장학안내-장학금 신청
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000272", #절차별장학안내-장학생 선말 및 제외
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000273", #절차별장학안내-장학금 지급 및 반납
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000370", #장학금신청-우선선발장학금신청
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000371", #장학금신청-장학생(근로)신청
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000372" #장학금신청-유니웰장학금신청
-
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000002",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000003",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000421",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000004",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000005",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000006",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000007",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000008",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000009",
     #등록
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000078", #등록금납부안내-재학생납부
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000079", #등록금납부안내-분할납부
