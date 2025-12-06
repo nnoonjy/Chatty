@@ -41,7 +41,73 @@ TARGET_URLS = [
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000006",
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000007",
     "https://onestop.pusan.ac.kr/page?menuCD=000000000000008",
-    "https://onestop.pusan.ac.kr/page?menuCD=000000000000009"
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000009",
+    #등록
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000078", #등록금납부안내-재학생납부
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000079", #등록금납부안내-분할납부
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000080", #등록금납부안내-차등납부
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000081", #등록금납부안내-납부방법
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000274", #고지서출력-고지서출력안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000076", #등록금책정표
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000077", #등록금반환
+    #졸업
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000088", #학부졸업안내-졸업안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000092", #학부졸업안내-학년별수료학점
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000094", #학부졸업안내-졸업요건/졸업학위
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000095", #학부졸업안내-표준외국어능력시험(TOEIC)
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000301", #학위청구논문-논문제출및심사
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000302", #학위청구논문-논문작성지침
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000285", #대학원졸업정보-일반대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000286", #대학원졸업정보-일반대학원수료학점편성표
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000287", #대학원졸업정보-국제전문대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000288", #대학원졸업정보-의.치.한의학전문대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000289", #대학원졸업정보-법학전문대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000290", #대학원졸업정보-경영대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000291", #대학원졸업정보-행정대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000292", #대학원졸업정보-교육대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000293", #대학원졸업정보-산업대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000294", #대학원졸업정보-환경대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000295", #대학원졸업정보-경제통상대학원졸업정보
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000296", #학위논문제출자격시험-학위논문제출자격시험안내
+    #학생교류
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000204", #해외파견-안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000099", #교환학생(국내)-안내
+    #대학생활
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000118", #다기능스마트카드학생증-안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000119", #다기능스마트카드학생증-발급절차
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000121", #다기능스마트카드학생증-분실신고
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000120", #다기능스마트카드학생증-재발급절차
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000303", #증명발급-인터넷증명
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000304", #증명발급-제증명발급
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000305", #증명발급-기타증명
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000306", #모바일학생증-이용안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000307", #모바일학생증-발급안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000308", #후생복지-후생복지시설현황
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000309", #후생복지-건강증진센터(구,보건진료소)
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000310", #후생복지-대학생활원
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000311", #상담및취업-상담및심리검사
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000312", #상담및취업-취업지원
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000313", #상담및취업-현장실습
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000314", #학생의료공제회-학생의료공제회안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000317", #학생의료공제회-급여신청및확인
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000319", #학생의료공제회-환불및반환지급기준
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000239", #예비군-예비군안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000241", #셔틀버스-셔틀버스안내
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000109", #부산캠퍼버스노선
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000117", #기업협약정보(호텔,항공등)
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000107", #학교안전사고보상공제
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000231", #학생병사-개요
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000232", #학생병사-징병검사
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000233", #학생병사-재학생입영연기
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000234", #학생병사-재학생입영원출원/취소
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000235", #학생병사-학적변동자처리
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000236", #학생병사-국외여행허가제도
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000237", #학생병사-국외여행허가목적별사항
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000238", #학생병사-병역의무자국외여행추천
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000320", #학습지원시설-도서관
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000321", #학습지원시설-정보화교육관
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000419", #멘토링-국내학생멘토링
+    "https://onestop.pusan.ac.kr/page?menuCD=000000000000420", #멘토링-외국인학생멘토링
 ]
 DATA_PATH = "./data"
 CHROMA_PATH = "./chroma_db"
@@ -95,8 +161,11 @@ retriever = vectorstore.as_retriever() if vectorstore else None
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 template = """
-당신은 부산대학교 공개 정보 봇입니다. 
-[문맥]을 보고 답변하세요. 모르면 모른다고 하세요.
+당신은 부산대학교 AI 도우미입니다. 
+아래의 [문맥]을 우선적으로 참고하여 답변하세요.
+
+만약 [문맥]에 정확한 내용이 없다면, 당신이 가진 **일반적인 지식**을 활용해서 친절하게 답변해주세요.
+단, 문맥에 없는 내용을 말할 때는 답변 끝에 "(일반적인 정보이며, 최신 공지와 다를 수 있습니다)"라고 덧붙여주세요.
 
 [문맥]:
 {context}
