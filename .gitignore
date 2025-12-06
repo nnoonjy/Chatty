@@ -1,24 +1,55 @@
-# Compiled class file
-*.class
+# ----------------------
+# 1. 보안 (Security) - 절대 올리면 안 됨
+# ----------------------
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
 
-# Log file
-*.log
+# ----------------------
+# 2. Python (Backend)
+# ----------------------
+# 가상환경 폴더
+venv/
+env/
+.venv/
 
-# BlueJ files
-*.ctxt
+# 컴파일된 파이썬 파일 (불필요)
+__pycache__/
+*.pyc
+*.pyo
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ----------------------
+# 3. 데이터베이스 & 파일 (RAG Specific)
+# ----------------------
+# ChromaDB 데이터 저장소 (용량이 크고 로컬 전용임)
+backend/chroma_db/
+backend/chroma_db_data/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# 데이터 폴더 (PDF 등은 용량이 크면 무시, 필요시 주석 해제)
+# 만약 PDF 파일은 공유하고 싶다면 아래 줄을 지우거나 #을 붙이세요.
+# backend/data/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# ----------------------
+# 4. React (Frontend)
+# ----------------------
+# 의존성 패키지 (엄청 무거움, npm install로 설치하면 됨)
+node_modules/
+
+# 빌드 결과물
+build/
+dist/
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# 5. OS & IDE
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
